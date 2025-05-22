@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クリモバ - 今すぐ実感できる資産形成の新しい選択肢 | トークンの可能性</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: #333;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f2350 0%, #1e4d8a 100%);
+        }
+        .token-gradient {
+            background: linear-gradient(135deg, #007bff 0%, #00d2ff 100%);
+        }
+        .equity-gradient {
+            background: linear-gradient(135deg, #6b7280 0%, #9ca3af 100%);
+        }
+        .simulator-button {
+            background: linear-gradient(135deg, #ff6b00 0%, #ffaa00 100%);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .simulator-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 106, 0, 0.3);
+        }
+        .feature-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 123, 255, 0.1);
+        }
+        .cta-button {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 123, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- ヒーローセクション - テキストのみ -->
+    <section class="gradient-bg text-white py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl font-bold leading-tight mb-6">
+                未来の価値を待つ間に、今、この手で価値を動かす。
+            </h1>
+            <p class="text-xl sm:text-2xl mb-12 leading-relaxed">
+                スマホ代が「成長期待のトークン」に変わる、クリモバという選択。<br>
+                月々の支払いで、流動性と大きな可能性を秘めた資産を、今すぐあなたのものに。
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="#features" class="bg-white text-blue-800 px-8 py-4 rounded-lg font-bold shadow-lg hover:bg-gray-100 transition">クリモバの強みを見る</a>
+                <a href="#simulator" class="bg-white text-blue-800 px-8 py-4 rounded-lg font-bold shadow-lg hover:bg-gray-100 transition">トークンシミュレーターを試す</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 資産形成の新しいカタチ -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12">
+                あなたの「期待」、もっと大きく、もっと早く。<br>
+                <span class="text-xl text-gray-600">～資産形成の新しいカタチ～</span>
+            </h2>
+            <div class="prose prose-lg max-w-none">
+                <p class="text-lg text-gray-700 mb-6">
+                    毎日の支出が、未来の資産価値に変わる…。そんな夢のある話に関心をお持ちの方は少なくないでしょう。数年後の大きな飛躍を期待して、コツコツと積み上げるのも一つの大切な考え方です。
+                </p>
+                <p class="text-lg text-gray-700 mb-6">
+                    しかし、変化の速い現代において、資産形成のあり方も進化しています。「待つ」だけでなく、もっとスピーディーに価値を実感し、自らその成長に関わっていく。そんな新しいアプローチが、Web3の世界では現実のものとなりつつあります。
+                </p>
+                <p class="text-lg text-gray-700 mb-6">
+                    クリモバは、まさにその新しい体験を提供するモバイルサービスです。あなたが日々利用するスマホ代が、FiNANCiEプラットフォームで取引可能な「にんプラトークン」へと変わります。このトークンは、単に将来の価値実現を待つのではなく、今すぐ換金できる流動性と、活気あるコミュニティ（Ninja DAO）に支えられた、大きな成長の可能性を秘めています。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- トークンシミュレーターセクション -->
+    <section id="simulator" class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div class="max-w-5xl mx-auto text-center">
+            <div class="mb-8">
+                <span class="inline-block bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">体験してみよう</span>
+                <h2 class="text-3xl sm:text-4xl font-bold mb-6">あなたのトークン資産、どう成長する？</h2>
+                <p class="text-xl text-gray-700 mb-12">
+                    クリモバの料金プランに基づいて、獲得できるトークンの<br>将来価値をシミュレーションできます。
+                </p>
+            </div>
+            
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+                <div class="flex flex-col items-center">
+                    <div class="w-full max-w-md bg-blue-50 p-6 rounded-lg mb-8">
+                        <div class="font-bold text-xl mb-3">シミュレーターでわかること</div>
+                        <ul class="text-left space-y-4">
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-blue-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>料金プラン別のトークン還元ポイント</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-blue-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>トークン価格の成長率に応じた資産価値の試算</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-blue-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>支払い累計と資産評価額の損益分岐点</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <a href="main.html" class="simulator-button text-white font-bold text-xl px-12 py-5 rounded-lg shadow-lg inline-block">
+                        トークン価格シミュレーターを開く
+                    </a>
+                    <p class="text-sm text-gray-500 mt-4">
+                        ※シミュレーションはあくまで参考値です。実際の価格変動を保証するものではありません。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- トークンのメリット -->
+    <section id="features" class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">
+                なぜ「一般的な将来価値への期待」より「トークン」なのか？
+            </h2>
+            <p class="text-xl text-center text-gray-600 mb-16">
+                クリモバを選ぶメリット
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <!-- メリット1 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                    <div class="token-gradient w-16 h-16 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-6">🚀</div>
+                    <h3 class="text-2xl font-bold mb-4">成長のポテンシャルは未知数！</h3>
+                    <p class="text-gray-700">
+                        「にんプラトークン」は、日本最大級とも言われるNinja DAOコミュニティの熱量と活動に連動する可能性があります。Web3プロジェクトのトークンは、コミュニティの成長や市場の注目度によって、時に従来の資産では考えられないようなダイナミックな価値変動を見せることがあります。あなたの参加が、トークン価値を押し上げる力になるかもしれません。
+                    </p>
+                </div>
+                
+                <!-- メリット2 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                    <div class="token-gradient w-16 h-16 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-6">💸</div>
+                    <h3 class="text-2xl font-bold mb-4">待たずに実感！「即時換金」の自由度</h3>
+                    <p class="text-gray-700">
+                        将来の価値実現を待つ間、資金が固定化されることも。クリモバの「にんプラトークン」は、FiNANCiEのマーケットプレイスでいつでもあなたの好きなタイミングで売買し、日本円に換金することが可能です。急な出費にも、目標達成時にも、あなたの判断で行動できます。
+                    </p>
+                </div>
+                
+                <!-- メリット3 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                    <div class="token-gradient w-16 h-16 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-6">🔍</div>
+                    <h3 class="text-2xl font-bold mb-4">透明性の高い市場で価値を見極める</h3>
+                    <p class="text-gray-700">
+                        「にんプラトークン」の価格は、FiNANCiEプラットフォーム上で常に変動し、誰でもその動きを確認できます。市場の評価がダイレクトに反映されるため、クローズドな評価を待つ必要はありません。この透明性が、納得感のある資産管理を可能にします。
+                    </p>
+                </div>
+                
+                <!-- メリット4 -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                    <div class="token-gradient w-16 h-16 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-6">📱</div>
+                    <h3 class="text-2xl font-bold mb-4">競争力のある料金プランはそのままに</h3>
+                    <p class="text-gray-700">
+                        これだけのメリットがありながら、クリモバの基本的なモバイルサービスの料金プランは、一般的な格安SIMサービスと比較しても遜色のない価格帯です。つまり、普段使いのスマホサービスとしての魅力はそのままに、より大きな可能性を秘めたリワードを手にできます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 比較表セクション -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16">
+                クリモバの「トークン」 vs 一般的な「将来価値への期待」
+            </h2>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white shadow-lg rounded-lg overflow-hidden">
+                    <thead>
+                        <tr class="bg-gray-800 text-white">
+                            <th class="px-6 py-4 text-left">特徴</th>
+                            <th class="px-6 py-4 text-left">クリモバの「にんプラトークン」</th>
+                            <th class="px-6 py-4 text-left">一般的な「将来価値を待つ資産」<br>(例：未公開企業の将来の権利など)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b">
+                            <td class="px-6 py-4 font-medium">リワードの性質</td>
+                            <td class="px-6 py-4">コミュニティトークン<br>(デジタルアセット)</td>
+                            <td class="px-6 py-4">将来の権利や価値<br>(例：特定条件で価値が確定)</td>
+                        </tr>
+                        <tr class="border-b bg-gray-50">
+                            <td class="px-6 py-4 font-medium">現在の流動性</td>
+                            <td class="px-6 py-4 text-green-600 font-bold">高い ✓<br>(FiNANCiEで取引可能)</td>
+                            <td class="px-6 py-4 text-red-600">低い / ほぼ無い ×<br>(特定の期日まで換金困難)</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="px-6 py-4 font-medium">価値の変動</td>
+                            <td class="px-6 py-4">市場価格で日々変動<br>(ダイナミック)</td>
+                            <td class="px-6 py-4">特定のイベントまで価値が固定または不確定<br>(例：事業成果や上場など)</td>
+                        </tr>
+                        <tr class="border-b bg-gray-50">
+                            <td class="px-6 py-4 font-medium">成長ポテンシャル</td>
+                            <td class="px-6 py-4">コミュニティの成長と連動<br>(青天井の期待も)</td>
+                            <td class="px-6 py-4">提供元の成長に依存<br>(大きなリターンも期待できるが不確実性も)</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="px-6 py-4 font-medium">換金タイミング</td>
+                            <td class="px-6 py-4 text-green-600 font-bold">いつでも可能 ✓</td>
+                            <td class="px-6 py-4 text-red-600">数年単位で待つ必要性 ×</td>
+                        </tr>
+                        <tr class="border-b bg-gray-50">
+                            <td class="px-6 py-4 font-medium">透明性</td>
+                            <td class="px-6 py-4 text-green-600 font-bold">市場価格が公開 ✓</td>
+                            <td class="px-6 py-4">限定的な情報開示の場合も</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 font-medium">参加・体験</td>
+                            <td class="px-6 py-4">コミュニティ参加・Web3体験</td>
+                            <td class="px-6 py-4">価値実現まで主に待機</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- にんプラトークン紹介 -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-6">
+                にんプラトークン – 成長ストーリーの主役はあなたかもしれない
+            </h2>
+            
+            <div class="prose prose-lg max-w-none mb-12">
+                <p>
+                    「にんプラトークン」は、ただのデジタルポイントではありません。その背後には、クリエイターやファン、エンジニアなど多様な人々が集う巨大コミュニティ「Ninja DAO」が存在します。日々新しいプロジェクトが生まれ、活発な議論が交わされるこのコミュニティのエネルギーが、「にんプラトークン」の価値を支え、未来を形作っていきます。
+                </p>
+                <p>
+                    クリモバを通じてトークンを保有することは、このエキサイティングな成長ストーリーに参加する権利を得るようなものです。FiNANCiEは、こうしたコミュニティトークンの発行、流通、そして価値交換を円滑にする日本発のプラットフォームです。多くのプロジェクトがFiNANCiEから羽ばたき、熱狂的なファンと共に新たな経済圏を創造しています。クリモバとにんプラトークンも、その成功事例の一つとなることを目指しています。
+                </p>
+            </div>
+            
+            <div class="text-center">
+                <a href="main.html" class="simulator-button text-white font-bold text-xl px-12 py-5 rounded-lg shadow-lg inline-block">
+                    トークン価格シミュレーターを試す
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 料金プラン -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16">
+                選べる料金プラン
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <!-- SIMプラン -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="bg-blue-600 text-white text-center py-4">
+                        <h3 class="text-2xl font-bold">SIMプラン</h3>
+                        <p>docomo回線対応</p>
+                    </div>
+                    <div class="p-6">
+                        <table class="w-full">
+                            <tbody>
+                                <tr class="border-b">
+                                    <td class="py-4 font-bold">3GB</td>
+                                    <td class="py-4 font-bold text-right">980円</td>
+                                    <td class="py-4 text-sm text-gray-500 text-right">税込1,078円</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-4 font-bold">5GB</td>
+                                    <td class="py-4 font-bold text-right">1,180円</td>
+                                    <td class="py-4 text-sm text-gray-500 text-right">税込1,298円</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-4 font-bold">10GB</td>
+                                    <td class="py-4 font-bold text-right">1,580円</td>
+                                    <td class="py-4 text-sm text-gray-500 text-right">税込1,738円</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-4 font-bold">20GB</td>
+                                    <td class="py-4 font-bold text-right">1,980円</td>
+                                    <td class="py-4 text-sm text-gray-500 text-right">税込2,178円</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-4 font-bold">50GB</td>
+                                    <td class="py-4 font-bold text-right">3,480円</td>
+                                    <td class="py-4 text-sm text-gray-500 text-right">税込3,828円</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- WiFiプラン -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="bg-blue-800 text-white text-center py-4">
+                        <h3 class="text-2xl font-bold">WiFiプラン</h3>
+                        <p>マルチキャリア対応</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-center py-8">
+                            <h4 class="text-2xl font-bold mb-2">無制限プラン</h4>
+                            <p class="text-lg mb-4">WiFi端末レンタル料 0円</p>
+                            <div class="bg-blue-50 p-4 rounded-lg inline-block">
+                                <span class="text-4xl font-bold text-blue-800">3,980円</span>
+                                <span class="text-gray-600">/月（税込4,378円）</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-500 mt-4">※1日33GB以上利用すると速度が128kbpsに制限されます。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-blue-900 text-white p-8 rounded-xl shadow-lg text-center">
+                <h3 class="text-2xl font-bold mb-4">すべてのプランで10％トークン還元！</h3>
+                <p class="text-lg mb-6">※税抜き料金が還元対象となります。<br>※「トークン還元」を利用するためにはFiNANCiEアカウントが必要となります。</p>
+                <a href="main.html" class="bg-white text-blue-800 px-8 py-4 rounded-lg font-bold shadow-lg hover:bg-gray-100 transition inline-block">
+                    トークン価格シミュレーターを開く
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 始め方 -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16">
+                今すぐクリモバで、新しい資産形成をスタート！
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <!-- ステップ1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 text-center">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">1</div>
+                    <h3 class="text-xl font-bold mb-4">選べる料金プラン</h3>
+                    <p class="text-gray-600">
+                        あなたのデータ利用量に合わせて、最適なSIMプランまたはWi-Fiプランを選択。eSIMなら面倒な手続きも少なくスピーディー！
+                    </p>
+                </div>
+                
+                <!-- ステップ2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 text-center">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">2</div>
+                    <h3 class="text-xl font-bold mb-4">カンタンオンライン申込</h3>
+                    <p class="text-gray-600">
+                        ウェブサイトから数分で手続き完了。本人確認もオンラインで。MNPにも対応しているので、電話番号もそのまま使えます。
+                    </p>
+                </div>
+                
+                <!-- ステップ3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 text-center">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">3</div>
+                    <h3 class="text-xl font-bold mb-4">FiNANCiEと連携してトークン獲得</h3>
+                    <p class="text-gray-600">
+                        エックスモバイルのマイページからFiNANCiEアカウントを連携するだけの簡単な初期設定。毎月自動でポイントが付与され、トークンに交換できます。
+                    </p>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="#" class="bg-blue-600 text-white px-12 py-5 rounded-lg font-bold text-xl shadow-lg hover:bg-blue-700 transition cta-button">
+                    クリモバに申し込む
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- よくある質問 -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16">
+                よくあるご質問（FAQ）
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- Q1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-4">
+                        トークンの価値は本当に上がるのですか？
+                    </h3>
+                    <div class="pl-6 border-l-4 border-blue-500">
+                        <p class="text-gray-700">
+                            トークンの価格は市場の需要と供給によって常に変動し、将来の価値を保証するものではありません。しかし、「にんプラトークン」は活発なNinja DAOコミュニティやFiNANCiEプラットフォームという基盤があり、プロジェクトの成長と共に価値が上昇する「可能性」を秘めていると言えるでしょう。これは、価値実現が特定の大きなイベントに依存することが多い他の形態の「将来価値への期待」とは異なる魅力です。
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Q2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-4">
+                        すぐに換金できるのは便利ですが、デメリットはありますか？
+                    </h3>
+                    <div class="pl-6 border-l-4 border-blue-500">
+                        <p class="text-gray-700">
+                            流動性が高いということは、価格変動の影響も受けやすいということです。ご自身の判断で適切なタイミングで取引いただく必要があります。しかし、必要な時に現金化できないという機会損失のリスクは大幅に軽減されます。
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Q3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-4">
+                        これまでの資産形成の方法と、何が一番違うのですか？
+                    </h3>
+                    <div class="pl-6 border-l-4 border-blue-500">
+                        <p class="text-gray-700">
+                            最も大きな違いは、「価値の流動性」と「成長への参加感」です。クリモバで得られるトークンは、すぐに市場で価値を交換できるだけでなく、その価値がコミュニティの力でダイナミックに成長していく過程を体感できます。これは、結果が出るまで長期間待つことが多い従来の資産形成とは一線を画す、新しい体験です。
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Q4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-4">
+                        通信品質は大丈夫ですか？
+                    </h3>
+                    <div class="pl-6 border-l-4 border-blue-500">
+                        <p class="text-gray-700">
+                            クリモバのSIMサービスはNTTドコモの広範なネットワークを利用しており、Wi-Fiサービスはマルチキャリア対応ですので、多くのお客様に安定した通信環境をご提供できます。料金プランも競争力のある設定となっておりますのでご安心ください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 gradient-bg text-white">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-8">
+                IPOを待つ数年間、あなたの資産は眠ったままですか？
+            </h2>
+            <p class="text-xl mb-12">
+                クリモバで、今すぐ動き出す「成長期待トークン」を手にしよう！<br>
+                月々のスマホ代が、未来を切り開く力に変わる。その第一歩を、今日踏み出しませんか？
+            </p>
+            
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="#" class="bg-white text-blue-800 px-8 py-4 rounded-lg font-bold shadow-lg hover:bg-gray-100 transition">
+                    クリモバの料金プランを今すぐチェック！
+                </a>
+                <a href="main.html" class="simulator-button text-white px-8 py-4 rounded-lg font-bold shadow-lg">
+                    トークン価格シミュレーターを試す
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- フッター -->
+    <footer class="bg-gray-900 text-gray-400 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-white mb-4">クリプトニンジャモバイル</h2>
+                <p>トークンがもらえる格安モバイル</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">サービス</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">SIMプラン</a></li>
+                        <li><a href="#" class="hover:text-white">WiFiプラン</a></li>
+                        <li><a href="#" class="hover:text-white">トークン還元</a></li>
+                        <li><a href="main.html" class="hover:text-white">シミュレーター</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">サポート</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">よくある質問</a></li>
+                        <li><a href="#" class="hover:text-white">お問い合わせ</a></li>
+                        <li><a href="#" class="hover:text-white">マイページ</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">コミュニティ</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Ninja DAO</a></li>
+                        <li><a href="#" class="hover:text-white">FiNANCiE</a></li>
+                        <li><a href="#" class="hover:text-white">クリプトニンジャ</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="text-center text-sm">
+                <p>&copy; 2025 クリプトニンジャモバイル All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
